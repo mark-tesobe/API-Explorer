@@ -1,0 +1,28 @@
+nav {
+  text-align: right;
+}
+
+.header {
+  position: relative;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--el-border-color-light);
+  z-index: var(--el-index-normal);
+}
+
+.routerLink {
+  padding-left: 12px;
+}
+
+.logo {
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+}
