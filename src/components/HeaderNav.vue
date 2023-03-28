@@ -5,22 +5,22 @@ import { ArrowDown } from '@element-plus/icons-vue'
 <template>
   <img alt="OBP logo" class="logo" src="@/assets/logo2x-1.png" />
   <nav>
-    <RouterLink class="routerLink" to="/">Portal Home</RouterLink>
-    <RouterLink class="routerLink" to="/api">API Explorer</RouterLink>
-    <RouterLink class="routerLink" to="/">Glossary</RouterLink>
-    <RouterLink class="routerLink" to="/">API Manager</RouterLink>
+    <RouterLink class="router-link" to="/">Portal Home</RouterLink>
+    <RouterLink class="router-link" to="/api">API Explorer</RouterLink>
+    <RouterLink class="router-link" to="/">Glossary</RouterLink>
+    <RouterLink class="router-link" to="/">API Manager</RouterLink>
     <span class="el-dropdown-link">
-      <RouterLink class="routerLink" to="/">More</RouterLink>
+      <RouterLink class="router-link" to="/">More</RouterLink>
       <el-icon class="el-icon--right">
         <arrow-down />
       </el-icon>
     </span>
     <span class="el-dropdown-link">
-      <RouterLink class="routerLink" to="/">Spaces</RouterLink>
+      <RouterLink class="router-link" to="/">Spaces</RouterLink>
       <el-icon class="el-icon--right">
         <arrow-down />
       </el-icon>
     </span>
-    <RouterLink class="routerLink" to="/login">Login</RouterLink>
+    <RouterLink class="router-link" to="/login">Login</RouterLink>
   </nav>
 </template>
